@@ -1,6 +1,8 @@
 # pi-pair
 
-A pair-programming mode for [pi](https://github.com/earendil-works/pi). You keep
+A pair-programming mode for [pi](https://github.com/earendil-works/pi), part of
+[joeygoldman/pi-extensions](https://github.com/joeygoldman/pi-extensions) (development happens
+[D-Joey-G/pi-extensions](https://github.com/D-Joey-G/pi-extensions)). You keep
 the keyboard. The agent navigates: it watches your diffs land, asks the question
 you were avoiding, and flags the design problem before it becomes a rewrite.
 
@@ -23,7 +25,7 @@ It cannot edit your files while navigating. It can ask you to approve a scoped k
 ## Install
 
 ```sh
-pi install git:github.com/joeygoldman/pi-pair
+pi install git:github.com/D-Joey-G/pi-extensions
 ```
 
 Or for local development, point pi at the checkout:
